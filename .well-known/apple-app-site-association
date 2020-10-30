@@ -5,7 +5,7 @@
       {
         "appID": "N53624Z834.uk.co.bbc.universallinks",
         "paths": [
-          "/appsflyer/*"
+          "*"
         ]
       }
     ]

@@ -2,14 +2,6 @@
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
-    "package_name": "co.uk.bbc.hackathon_team_two.bbcme",
-    "sha256_cert_fingerprints":
-    ["18:22:4A:FC:FB:B4:06:D8:C2:4C:19:F3:CF:28:44:bd:BB:B0:7A:88:FB:38:0E:92:F8:7F:38:6B:A0:F5:75:E0"]
-  }
-},{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
     "package_name": "uk.co.bbc.chrysalis",
     "sha256_cert_fingerprints":
     ["37:E3:9C:24:22:31:EE:BA:EC:9C:DB:55:B7:BC:2F:53:81:20:72:6E:9B:25:B5:B6:67:2E:44:5F:52:F5:BF:37"]

@@ -5344,9 +5344,10 @@
             },
             {
                 "type": "StoryPromo",
-                "style": "IMAGE_LED_PROMO_CARD",
-                "title": "Daily Briefing",
-                "subtitle": "Thursday, 6 May",
+                "style": "LARGE_PROMO_CARD",
+                "languageCode": "en-gb",
+                "text": "Daily Briefing",
+                "subText": "Thursday, 6 May",
                 "image": {
                     "type": "Image",
                     "source": {

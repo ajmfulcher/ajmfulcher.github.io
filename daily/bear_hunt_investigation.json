@@ -1,0 +1,103 @@
+{
+    "data": {
+        "metadata": {
+            "name": "Home",
+            "allowAdvertising": true,
+            "lastUpdated": 1634309122833,
+            "shareUrl": "https://www.bbc.co.uk/news/front_page"
+        },
+        "items": [
+          {
+              "type": "Image",
+              "source": {
+                  "aspectRatio": 1.7777777777777777,
+                  "url": "https://ichef.bbci.co.uk/moira/img/android/v3/{width}/cpsprodpb/14089/production/_118375028_d5a67cbb-e6eb-41e4-b58a-bac05f85bf84.jpg",
+                  "sizingMethod": {
+                      "type": "SPECIFIC_WIDTHS",
+                      "widthToken": "{width}",
+                      "widths": [
+                          80,
+                          100,
+                          128,
+                          160,
+                          200,
+                          240,
+                          288,
+                          320,
+                          360,
+                          400,
+                          432,
+                          480,
+                          512,
+                          576,
+                          640,
+                          720,
+                          768,
+                          800,
+                          960,
+                          1024,
+                          1080,
+                          1136,
+                          1152,
+                          1200,
+                          1280,
+                          1440,
+                          1536,
+                          1600,
+                          1920,
+                          2048,
+                          2560
+                      ]
+                  }
+              },
+              "metadata": {
+                  "altText": "Picture of Arthur the brown bear"
+              }
+          },
+          {
+              "type": "Headline",
+              "text": "Bear hunt investigation"
+          },
+          {
+              "type": "textContainer",
+              "containerType": "body",
+              "text": {
+                  "text": "A prince in Liechtenstein is accused of shooting dead a brown bear called Arthur, believed to be the biggest in Europe.",
+                  "spans": []
+              }
+          },
+          {
+              "type": "CallToActionBanner",
+              "title": "Swipe left and right for other stories",
+              "buttons": [
+                  {
+                      "title": "Read story",
+                      "link": {
+                        "trackers": [
+                            {
+                                "type": "ati_v2",
+                                "payload": {
+                                    "action_type": "article-read-story-tap",
+                                    "action_name": "daily-briefing"
+                                }
+                            }
+                        ],
+                        "destinations": [
+                            {
+                                "sourceFormat": "ABL",
+                                "url": "https://news-app.api.bbc.co.uk/fd/preview/spike-abl-core?clientName=Chrysalis&clientVersion=pre-1&fablPreview=true&page=world-europe-56991543&release=daily-briefing&service=news&type=article",
+                                "id": "/news/explainers-56849080",
+                                "presentation": {
+                                    "type": "SINGLE_RENDERER",
+                                    "canShare": true
+                                }
+                            }
+                        ]
+                    }
+                  }
+              ]
+          }
+        ],
+        "trackers": []
+    }
+}

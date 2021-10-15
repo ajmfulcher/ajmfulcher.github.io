@@ -1,0 +1,103 @@
+{
+    "data": {
+        "metadata": {
+            "name": "Home",
+            "allowAdvertising": true,
+            "lastUpdated": 1634309122833,
+            "shareUrl": "https://www.bbc.co.uk/news/front_page"
+        },
+        "items": [
+          {
+              "type": "Image",
+              "source": {
+                  "aspectRatio": 1.7777777777777777,
+                  "url": "https://ichef.bbci.co.uk/moira/img/android/v3/{width}/cpsprodpb/DC60/production/_116861465_hi065537603.jpg",
+                  "sizingMethod": {
+                      "type": "SPECIFIC_WIDTHS",
+                      "widthToken": "{width}",
+                      "widths": [
+                          80,
+                          100,
+                          128,
+                          160,
+                          200,
+                          240,
+                          288,
+                          320,
+                          360,
+                          400,
+                          432,
+                          480,
+                          512,
+                          576,
+                          640,
+                          720,
+                          768,
+                          800,
+                          960,
+                          1024,
+                          1080,
+                          1136,
+                          1152,
+                          1200,
+                          1280,
+                          1440,
+                          1536,
+                          1600,
+                          1920,
+                          2048,
+                          2560
+                      ]
+                  }
+              },
+              "metadata": {
+                  "altText": "A man receives a COVID-19 vaccine at a drive-thru vaccination centre in St Albans"
+              }
+          },
+          {
+              "type": "Headline",
+              "text": "Vaccine racism"
+          },
+          {
+              "type": "textContainer",
+              "containerType": "body",
+              "text": {
+                  "text": "Black people are less likely to have the Covid jab. But why is that? Black communities say they are being unfairly blamed.",
+                  "spans": []
+              }
+          },
+          {
+              "type": "CallToActionBanner",
+              "title": "Swipe left and right for other stories",
+              "buttons": [
+                  {
+                      "title": "Read story",
+                      "link": {
+                        "trackers": [
+                            {
+                                "type": "ati_v2",
+                                "payload": {
+                                    "action_type": "article-read-story-tap",
+                                    "action_name": "daily-briefing"
+                                }
+                            }
+                        ],
+                        "destinations": [
+                            {
+                                "sourceFormat": "ABL",
+                                "url": "https://news-app.api.bbc.co.uk/fd/preview/spike-abl-core?clientName=Chrysalis&clientVersion=pre-1&fablPreview=true&page=health-56813982&release=daily-briefing&service=news&type=article",
+                                "id": "/news/explainers-56849080",
+                                "presentation": {
+                                    "type": "SINGLE_RENDERER",
+                                    "canShare": true
+                                }
+                            }
+                        ]
+                    }
+                  }
+              ]
+          }
+        ],
+        "trackers": []
+    }
+}

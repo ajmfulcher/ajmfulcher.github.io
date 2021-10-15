@@ -5408,11 +5408,167 @@
                     "destinations": [
                       {
                           "sourceFormat": "ABL",
-                          "url": "https://news-app.api.bbc.co.uk/fd/abl?clientName=Chrysalis&clientVersion=pre-1&release=public-alpha&type=article&page=uk-58930593&service=news",
+                          "url": "https://andrewfulcher.dev/daily/royal_navy_defends_jersey.json",
                           "id": "/news/uk-58930593",
                           "presentation": {
-                              "type": "SINGLE_RENDERER",
-                              "canShare": true
+                              "type": "MULTIPLE_RENDERER",
+                              "canShare": false,
+                              "rendererLinks": [
+                                {
+                                    "trackers": [
+                                        {
+                                            "type": "ati_v2",
+                                            "payload": {
+                                                "action_type": "disco-feed-tap",
+                                                "action_name": "daily-briefing"
+                                            }
+                                        }
+                                    ],
+                                    "destinations": [
+                                      {
+                                          "sourceFormat": "ABL",
+                                          "url": "https://andrewfulcher.dev/daily/royal_navy_defends_jersey.json",
+                                          "id": "/news/uk-58930593",
+                                          "presentation": {
+                                              "type": "SINGLE_RENDERER",
+                                              "canShare": true
+                                          }
+                                      }
+                                    ]
+                                },
+                                {
+                                    "trackers": [
+                                        {
+                                            "type": "ati_v2",
+                                            "payload": {
+                                                "action_type": "disco-feed-tap",
+                                                "action_name": "daily-briefing"
+                                            }
+                                        }
+                                    ],
+                                    "destinations": [
+                                      {
+                                          "sourceFormat": "ABL",
+                                          "url": "https://andrewfulcher.dev/daily/election_day.json",
+                                          "id": "/news/uk-58930593",
+                                          "presentation": {
+                                              "type": "SINGLE_RENDERER",
+                                              "canShare": true
+                                          }
+                                      }
+                                    ]
+                                },
+                                {
+                                    "trackers": [
+                                        {
+                                            "type": "ati_v2",
+                                            "payload": {
+                                                "action_type": "disco-feed-tap",
+                                                "action_name": "daily-briefing"
+                                            }
+                                        }
+                                    ],
+                                    "destinations": [
+                                      {
+                                          "sourceFormat": "ABL",
+                                          "url": "https://andrewfulcher.dev/daily/working_from_home.json",
+                                          "id": "/news/uk-58930593",
+                                          "presentation": {
+                                              "type": "SINGLE_RENDERER",
+                                              "canShare": true
+                                          }
+                                      }
+                                    ]
+                                },
+                                {
+                                    "trackers": [
+                                        {
+                                            "type": "ati_v2",
+                                            "payload": {
+                                                "action_type": "disco-feed-tap",
+                                                "action_name": "daily-briefing"
+                                            }
+                                        }
+                                    ],
+                                    "destinations": [
+                                      {
+                                          "sourceFormat": "ABL",
+                                          "url": "https://andrewfulcher.dev/daily/india_double_mutant.json",
+                                          "id": "/news/uk-58930593",
+                                          "presentation": {
+                                              "type": "SINGLE_RENDERER",
+                                              "canShare": true
+                                          }
+                                      }
+                                    ]
+                                },
+                                {
+                                    "trackers": [
+                                        {
+                                            "type": "ati_v2",
+                                            "payload": {
+                                                "action_type": "disco-feed-tap",
+                                                "action_name": "daily-briefing"
+                                            }
+                                        }
+                                    ],
+                                    "destinations": [
+                                      {
+                                          "sourceFormat": "ABL",
+                                          "url": "https://andrewfulcher.dev/daily/vaccine_racism.json",
+                                          "id": "/news/uk-58930593",
+                                          "presentation": {
+                                              "type": "SINGLE_RENDERER",
+                                              "canShare": true
+                                          }
+                                      }
+                                    ]
+                                },
+                                {
+                                    "trackers": [
+                                        {
+                                            "type": "ati_v2",
+                                            "payload": {
+                                                "action_type": "disco-feed-tap",
+                                                "action_name": "daily-briefing"
+                                            }
+                                        }
+                                    ],
+                                    "destinations": [
+                                      {
+                                          "sourceFormat": "ABL",
+                                          "url": "https://andrewfulcher.dev/daily/porn_age_campaign.json",
+                                          "id": "/news/uk-58930593",
+                                          "presentation": {
+                                              "type": "SINGLE_RENDERER",
+                                              "canShare": true
+                                          }
+                                      }
+                                    ]
+                                },
+                                {
+                                    "trackers": [
+                                        {
+                                            "type": "ati_v2",
+                                            "payload": {
+                                                "action_type": "disco-feed-tap",
+                                                "action_name": "daily-briefing"
+                                            }
+                                        }
+                                    ],
+                                    "destinations": [
+                                      {
+                                          "sourceFormat": "ABL",
+                                          "url": "https://andrewfulcher.dev/daily/bear_hunt_investigation.json",
+                                          "id": "/news/uk-58930593",
+                                          "presentation": {
+                                              "type": "SINGLE_RENDERER",
+                                              "canShare": true
+                                          }
+                                      }
+                                    ]
+                                }
+                              ]
                           }
                       }
                     ]

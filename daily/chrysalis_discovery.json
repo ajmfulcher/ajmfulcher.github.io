@@ -5343,6 +5343,81 @@
                 ]
             },
             {
+                "type": "StoryPromo",
+                "style": "IMAGE_LED_PROMO_CARD",
+                "title": "Daily Briefing",
+                "subtitle": "Thursday, 6 May",
+                "image": {
+                    "type": "Image",
+                    "source": {
+                        "aspectRatio": 1.7777777777777777,
+                        "url": "https://ichef.bbci.co.uk/moira/img/android/v3/{width}/cpsprodpb/D898/production/_118384455_gettyimages-1212194444.jpg",
+                        "sizingMethod": {
+                            "type": "SPECIFIC_WIDTHS",
+                            "widthToken": "{width}",
+                            "widths": [
+                                80,
+                                100,
+                                128,
+                                160,
+                                200,
+                                240,
+                                288,
+                                320,
+                                360,
+                                400,
+                                432,
+                                480,
+                                512,
+                                576,
+                                640,
+                                720,
+                                768,
+                                800,
+                                960,
+                                1024,
+                                1080,
+                                1136,
+                                1152,
+                                1200,
+                                1280,
+                                1440,
+                                1536,
+                                1600,
+                                1920,
+                                2048,
+                                2560
+                            ]
+                        }
+                    },
+                    "metadata": {
+                        "altText": "Paddlers enjoy the warm weather as HMS Severn, an offshore patrol vessel of the British Royal Navy, is anchored off the West Pier in Brighton on May 8, 2020"
+                    }
+                },
+                "link": {
+                    "trackers": [
+                        {
+                            "type": "ati_v2",
+                            "payload": {
+                                "action_type": "disco-feed-tap",
+                                "action_name": "daily-briefing"
+                            }
+                        }
+                    ],
+                    "destinations": [
+                      {
+                          "sourceFormat": "ABL",
+                          "url": "https://news-app.api.bbc.co.uk/fd/abl?clientName=Chrysalis&clientVersion=pre-1&release=public-alpha&type=article&page=uk-58930593&service=news",
+                          "id": "/news/uk-58930593",
+                          "presentation": {
+                              "type": "SINGLE_RENDERER",
+                              "canShare": true
+                          }
+                      }
+                    ]
+                }
+            },
+            {
                 "type": "SectionHeader",
                 "text": "Most Read"
             },

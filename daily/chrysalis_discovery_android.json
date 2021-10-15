@@ -5412,7 +5412,7 @@
                           "id": "/news/uk-58930593",
                           "presentation": {
                               "type": "MULTIPLE_RENDERER",
-                              "canShare": false,
+                              "canShare": true,
                               "rendererLinks": [
                                 {
                                     "trackers": [

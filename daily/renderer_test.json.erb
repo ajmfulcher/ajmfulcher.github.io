@@ -1,0 +1,282 @@
+{
+    "data": {
+        "metadata": {
+            "name": "Home",
+            "allowAdvertising": true,
+            "lastUpdated": 1634309122833,
+            "shareUrl": "https://www.bbc.co.uk/news/front_page"
+        },
+        "items": [
+        <% [
+        "GALLERY_PROMO_CARD",
+        "LARGE_PROMO_CARD",
+        "SMALL_HORIZONTAL_PROMO_CARD",
+        "SMALL_VERTICAL_PROMO_CARD",
+        "SMALL_CAROUSEL_PROMO_CARD",
+        "IMAGE_LED_PROMO_CARD",
+        "VIDEO_PACKAGE_PROMO_CARD",
+        "EMPHASISED_PROMO_CARD",
+        "PORTRAIT_PROMO_CARD",
+        "HERO_PROMO_CARD",
+        "TEXT_PROMO_CARD",
+        "BADGE_LED_PROMO_CARD",
+        "HIGHLIGHTED_PROMO_CARD",
+        "SQUARE_PROMO_CARD",
+        "SQUARE_TEXT_OVER_IMAGE_PROMO_CARD"
+        ].each do |card| %>
+          {
+            "type": "SectionHeader",
+            "text": "<%= card %>"
+          },
+          {
+              "type": "textContainer",
+              "containerType": "body",
+              "text": {
+                  "text": "Title, no subtitle, no updated timestamp",
+                  "spans": []
+              }
+          },
+          {
+              "type": "StoryPromo",
+              "style": "<%= card %>",
+              "languageCode": "en-gb",
+              "text": "This is the promo title",
+              "link": {
+                  "trackers": [],
+                  "destinations": [
+                      {
+                          "sourceFormat": "HTML",
+                          "url": "https://www.bbc.co.uk/sounds/play/w3ct1nhl",
+                          "id": "https://www.bbc.co.uk/sounds/play/w3ct1nhl",
+                          "presentation": {
+                              "type": "WEB",
+                              "contentSource": "BBC"
+                          }
+                      }
+                  ]
+              },
+              "image": {
+                  "type": "Image",
+                  "source": {
+                      "aspectRatio": 1.7777777777777777,
+                      "url": "https://ichef.bbci.co.uk/moira/img/android/v3/{width}/cpsprodpb/133DD/production/_114331887_techtent-2020.png",
+                      "sizingMethod": {
+                          "type": "SPECIFIC_WIDTHS",
+                          "widthToken": "{width}",
+                          "widths": [
+                              80,
+                              100,
+                              128,
+                              160,
+                              200,
+                              240,
+                              288,
+                              320,
+                              360,
+                              400,
+                              432,
+                              480,
+                              512,
+                              576,
+                              640,
+                              720,
+                              768,
+                              800,
+                              960,
+                              1024,
+                              1080,
+                              1136,
+                              1152,
+                              1200,
+                              1280,
+                              1440,
+                              1536,
+                              1600,
+                              1920,
+                              2048,
+                              2560
+                          ]
+                      }
+                  },
+                  "metadata": {
+                      "altText": "Rory Cellan-Jones and Tech Tent logo"
+                  }
+              }
+          },
+          {
+              "type": "textContainer",
+              "containerType": "body",
+              "text": {
+                  "text": "Title, subtitle, no updated timestamp",
+                  "spans": []
+              }
+          },
+          {
+              "type": "StoryPromo",
+              "style": "<%= card %>",
+              "languageCode": "en-gb",
+              "text": "This is the promo title",
+              "subText": "This is the promo subtitle",
+              "link": {
+                  "trackers": [],
+                  "destinations": [
+                      {
+                          "sourceFormat": "HTML",
+                          "url": "https://www.bbc.co.uk/sounds/play/w3ct1nhl",
+                          "id": "https://www.bbc.co.uk/sounds/play/w3ct1nhl",
+                          "presentation": {
+                              "type": "WEB",
+                              "contentSource": "BBC"
+                          }
+                      }
+                  ]
+              },
+              "image": {
+                  "type": "Image",
+                  "source": {
+                      "aspectRatio": 1.7777777777777777,
+                      "url": "https://ichef.bbci.co.uk/moira/img/android/v3/{width}/cpsprodpb/133DD/production/_114331887_techtent-2020.png",
+                      "sizingMethod": {
+                          "type": "SPECIFIC_WIDTHS",
+                          "widthToken": "{width}",
+                          "widths": [
+                              80,
+                              100,
+                              128,
+                              160,
+                              200,
+                              240,
+                              288,
+                              320,
+                              360,
+                              400,
+                              432,
+                              480,
+                              512,
+                              576,
+                              640,
+                              720,
+                              768,
+                              800,
+                              960,
+                              1024,
+                              1080,
+                              1136,
+                              1152,
+                              1200,
+                              1280,
+                              1440,
+                              1536,
+                              1600,
+                              1920,
+                              2048,
+                              2560
+                          ]
+                      }
+                  },
+                  "metadata": {
+                      "altText": "Rory Cellan-Jones and Tech Tent logo"
+                  }
+              }
+          },
+          {
+              "type": "textContainer",
+              "containerType": "body",
+              "text": {
+                  "text": "Title, subtitle, updated timestamp",
+                  "spans": []
+              }
+          },
+          {
+              "type": "StoryPromo",
+              "style": "<%= card %>",
+              "languageCode": "en-gb",
+              "text": "This is the promo title",
+              "subText": "This is the promo subtitle",
+              "updated": 1634202108000,
+              "link": {
+                  "trackers": [],
+                  "destinations": [
+                      {
+                          "sourceFormat": "HTML",
+                          "url": "https://www.bbc.co.uk/sounds/play/w3ct1nhl",
+                          "id": "https://www.bbc.co.uk/sounds/play/w3ct1nhl",
+                          "presentation": {
+                              "type": "WEB",
+                              "contentSource": "BBC"
+                          }
+                      }
+                  ]
+              },
+              "image": {
+                  "type": "Image",
+                  "source": {
+                      "aspectRatio": 1.7777777777777777,
+                      "url": "https://ichef.bbci.co.uk/moira/img/android/v3/{width}/cpsprodpb/133DD/production/_114331887_techtent-2020.png",
+                      "sizingMethod": {
+                          "type": "SPECIFIC_WIDTHS",
+                          "widthToken": "{width}",
+                          "widths": [
+                              80,
+                              100,
+                              128,
+                              160,
+                              200,
+                              240,
+                              288,
+                              320,
+                              360,
+                              400,
+                              432,
+                              480,
+                              512,
+                              576,
+                              640,
+                              720,
+                              768,
+                              800,
+                              960,
+                              1024,
+                              1080,
+                              1136,
+                              1152,
+                              1200,
+                              1280,
+                              1440,
+                              1536,
+                              1600,
+                              1920,
+                              2048,
+                              2560
+                          ]
+                      }
+                  },
+                  "metadata": {
+                      "altText": "Rory Cellan-Jones and Tech Tent logo"
+                  }
+              }
+          },
+          <% end %>
+        ],
+        "trackers": [
+            {
+                "type": "ati_v2",
+                "payload": {
+                    "page_title": "discovery",
+                    "bbc_content_type": "index-home",
+                    "bbc_producer": "NEWS",
+                    "name": "news.discovery.page"
+                }
+            },
+            {
+                "type": "Chartbeat_1",
+                "payload": {
+                    "id": "https://www.bbc.co.uk/news/front_page",
+                    "name": "discovery",
+                    "authors": null,
+                    "sections": "News, News - ART"
+                }
+            }
+        ]
+    }
+}
